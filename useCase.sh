@@ -14,4 +14,4 @@ echo "key" ${!computes[@]}
 echo "value" ${computes[@]}
 echo "lenght" ${#computes[@]}
 sort=$(printf "%s\n" ${computes[@]} | sort -n )
-echo "Descending Order" $sort
+echo "Ascending Order" $sort
