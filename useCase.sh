@@ -5,7 +5,7 @@ read -p "Enter third value:" thirdValue
 
 declare -A computes
 
-computes[Total1]=$(( $thirdValue + $firstValue * $secondValue ))
+computes[Total1]=$(( $firstValue + $secondValue * $thirdValue ))
 computes[Total2]=$(( $firstValue * $secondValue + $thirdValue ))
 computes[Total3]=$(( $thirdValue + $firstValue / $secondValue ))
 computes[Total4]=$(( $firstValue % $secondValue / $thirdValue ))
