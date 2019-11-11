@@ -12,4 +12,6 @@ computes[Total4]=$(( $firstValue % $secondValue / $thirdValue ))
 
 echo "key" ${!computes[@]}
 echo "value" ${computes[@]}
-
+echo "lenght" ${#computes[@]}
+sort=$(printf "%s\n" ${computes[@]} | sort -r )
+echo "Descending Order" $sort
